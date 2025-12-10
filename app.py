@@ -235,7 +235,7 @@ if uploaded_files:
 st.markdown('<div class="section-header">📝 2. THÔNG TIN BÀI DẠY</div>', unsafe_allow_html=True)
 
 c1, c2 = st.columns(2)
-with c1: lop = st.text_input("📚 Lớp:", "Lớp 4")
+with c1: lop = st.text_input("📚 Lớp:", "Lớp 5")
 with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Học hát bài...")
 
 noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", height=100)
